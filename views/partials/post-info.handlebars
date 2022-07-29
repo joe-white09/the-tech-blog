@@ -1,11 +1,11 @@
         <article class="post">
-            <div class="title">
-                <h3>
+                <h3 class="post-header">
                     <a href="/post/{{id}}">{{title}}</a>
-                    <div>
+                    <span>
                         Posted by {{user.username}} on {{format_date created_at}}
-                    </div>
+                    </span>
                 </h3>
+                <div class="post-text">
                 <span>{{post_text}}</span>
-            </div> 
+                </div>
         </article>

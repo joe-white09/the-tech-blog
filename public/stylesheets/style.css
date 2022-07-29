@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(212, 235, 227);
+}
+
+header {
+    background-color: rgb(49, 30, 16);
+    padding: 10px;
+
+}
+
+header a {
+    color: rgb(212, 235, 227);
+    padding: 5px;
+    margin: 5px 10px;
+}
+
+header button {
+    background-color: rgb(49, 30, 16);
+    color: rgb(212, 235, 227);
+    padding: 5px;
+    margin: 5px 10px;
+}
+
+.page-title {
+    display: flex;
+}
+
+.page-title h1 {
+    background-color:rgb(212, 235, 227);
+    color: rgb(49, 30, 16);
+    font-size: 30px;
+    border: 1px solid rgb(49, 30, 16);
+    border-radius: 5px;
+    margin: 10px 10px 10px 20px;
+    padding: 5px;
+    box-shadow: 5px 5px 0px gray;
+}
+
+.post-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(49, 30, 16);
+    color: rgb(212, 235, 227);
+    padding: 10px;
+    position: relative;
+    top: -20px;
+
+}
+
+.post-header a {
+    color: rgb(212, 235, 227);
+}
+
+.post {
+    margin: 10px 25px 25px 25px;
+    border: solid 2px rgb(49, 30, 16);
+    align-items: center;
+
+}
+
+.post-text {
+    position: relative;
+    bottom: 20px;
+}
+
+
+
