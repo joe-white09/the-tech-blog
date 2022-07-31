@@ -5,7 +5,7 @@ const withAuth = require('../../utils/auth');
 
 router.get('/', (req, res) => {
     Post.findAll({
-        order: [['created_at', 'DESC']],
+        order: [['id', 'DESC']],
         attributes: [
             'id',
             'post_text',
