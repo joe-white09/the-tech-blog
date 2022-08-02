@@ -205,6 +205,7 @@ label {
     justify-content: space-between;
     padding: 10px;
     border-radius: 5px;
+    margin: 5px;
 }
 
 .dashboard-post a {
@@ -221,6 +222,20 @@ label {
 
 .edit-post-form button {
     padding: 5px;
+}
+
+#add-post-btn {
+    background-color: rgb(49, 30, 16);
+    color: white;
+    display: block;
+    margin: 5px auto ;
+    width: 20%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.hide {
+    display: none;
 }
 
 

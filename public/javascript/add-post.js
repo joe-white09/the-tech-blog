@@ -21,4 +21,10 @@ async function newFormHandler(event) {
     }
 }
 
+function showNewPostForm() {
+    document.getElementById('new-post').removeAttribute('class', 'hide');
+    document.getElementById('new-post').setAttribute('class', 'new-post');
+}
+
 document.querySelector('.new-post-form').addEventListener('submit', newFormHandler);
+document.querySelector('#add-post-btn').addEventListener('click', showNewPostForm);
